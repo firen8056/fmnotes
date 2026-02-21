@@ -1,0 +1,14 @@
+site_name: FMnotes_home
+site_url: https://github.com/firen8056/fmnotes.git
+theme:
+  name: material
+repo_name: firen8056/fmnotes
+nav:
+    - Home: index.md
+    - Ab:
+        - about.md
+    - Test:
+        - test.md
+plugins:
+    - search:
+        lang: zh
