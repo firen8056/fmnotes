@@ -1,14 +1,77 @@
 site_name: FMnotes_home
 site_url: https://github.com/firen8056/fmnotes.git
+
+# 主題
 theme:
-  name: material
-repo_name: firen8056/fmnotes
-nav:
-    - Home: index.md
-    - Ab:
-        - about.md
-    - Test:
-        - test.md
+    name: material
+    features:
+        - search.suggest
+        - search.highlight
+        - palette.toggle
+
+# 外掛
 plugins:
-    - search:
-        lang: zh
+  - search:
+      lang: en
+      lang: zh
+markdown_extensions:
+  - toc:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+extra:
+  analytics:
+    provider: google
+    property: G-PN0HKGCJXW
+
+# 導覽
+nav:
+    - Home (首頁): index.md
+    - About (關於本站): about.md
+    - Symptom/signs (常見狀況評估):
+        - ss/leg_cramp.md
+        - ss/skin_itching.md
+        - ss/constipation.md
+        - ss/weight_loss.md
+        - ss/chest_pain.md
+        - ss/palpitation.md
+        - ss/leg_edema.md
+        - ss/syncope.md
+        - ss/abdominal_pain.md
+        - ss/GI_bleeding.md
+        - ss/diarrhea.md
+        - ss/dyspnea.md
+        - ss/chronic_cough.md
+        - ss/fatigue.md
+        - ss/hyperhidrosis.md
+        - ss/fall.md
+        - ss/dry_mouth.md
+        - ss/anosmia.md
+        - ss/halitosis.md
+        - ss/lymphadenopathy.md
+        - ss/hiccup.md
+        - ss/dizziness.md
+        - ss/hair_loss.md
+        - ss/urinary_frequency.md
+        - ss/incontinence.md
+        - ss/hematuria.md
+        - ss/sexual_dysfunction.md
+        - ss/headache.md
+        - ss/tremor.md
+        - ss/abnormal_uterine_bleeding.md
+        - ss/dysmenorrhea.md
+    - Dermatology (皮膚科疾病):
+        - DERM/pompholyx.md
+        - DERM/nummular_eczema.md

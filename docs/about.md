@@ -1,13 +1,14 @@
-# 關於我們
+### 作者介紹
 
-這是關於我們的介紹頁面。
+您好，我是陳漎銨。是家醫科專科醫師，也是安寧緩和專科醫師。
 
-這裡也可以放圖片：
+### 更新日誌
 
-### 員工資料表
+!!! note "2025.10.01-17"
+    新增 abdominal pain、GI bleeding、diarrhea、chronic cough、fatigue、hyperhidrosis、fall、dry mouth、anosmia、halitosis、lymphadenopathy、hiccup、dizziness、hair loss、urinary frequency、incontinence、hematuria、sexual dysfunction、headache、tremor、abnormal uterine bleeding、dysmenorrhea 的評估
 
-| 名稱 | 年齡 | 職業 |
-|------|------|------------|
-| 小明 | 25   | 醫師abdasdf|
-| 小華 | 30   | 藥師 |
+!!! note "2025.09.22-28"
+    新增 chest pain、constipation、leg cramping、leg edema、palpitation、skin itching、syncope、weight loss 的評估
 
+!!! note "2025.09.16"
+    本站產生
