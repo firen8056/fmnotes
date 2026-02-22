@@ -9,6 +9,8 @@ theme:
         - search.highlight
         - palette.toggle
 
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
 # 外掛
 plugins:
   - search:
