@@ -36,7 +36,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-PN0HKGCJXW
+    property: G-C8EQY3Y2CY
 
 # 導覽
 nav:
