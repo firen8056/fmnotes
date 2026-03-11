@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow:
+
+Sitemap: https://fmnotes.readthedocs.io/zh-tw/latest/sitemap.xml
