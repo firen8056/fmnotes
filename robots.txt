@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow:
+
+Sitemap: https://firen8056.github.io/fmnotes/sitemap.xml
