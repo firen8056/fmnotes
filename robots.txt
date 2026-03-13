@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://firen8056.github.io/fmnotes/sitemap.xml
+Sitemap: https://firen8056.github.io/fmnotes/new_sitemap.xml
