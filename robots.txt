@@ -1,5 +1,0 @@
-User-agent: *
-
-Allow: /
-
-Sitemap: https://firen8056.github.io/fmnotes/new_sitemap.xml
